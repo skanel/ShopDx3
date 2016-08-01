@@ -3,8 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9171BBE7-F144-48FD-BA66-20B49113A4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopDx3.DomainModels", "src\ShopDx3.DomainModels\ShopDx3.DomainModels.csproj", "{427E68C4-7B16-47E7-B99A-01E9D22D3056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopDx3.Interfaces", "src\ShopDx3.Interfaces\ShopDx3.Interfaces.csproj", "{8F292A80-A123-4F36-A403-1412DFFD3907}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{427E68C4-7B16-47E7-B99A-01E9D22D3056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427E68C4-7B16-47E7-B99A-01E9D22D3056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427E68C4-7B16-47E7-B99A-01E9D22D3056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427E68C4-7B16-47E7-B99A-01E9D22D3056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F292A80-A123-4F36-A403-1412DFFD3907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F292A80-A123-4F36-A403-1412DFFD3907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F292A80-A123-4F36-A403-1412DFFD3907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F292A80-A123-4F36-A403-1412DFFD3907}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{427E68C4-7B16-47E7-B99A-01E9D22D3056} = {9171BBE7-F144-48FD-BA66-20B49113A4E2}
+		{8F292A80-A123-4F36-A403-1412DFFD3907} = {9171BBE7-F144-48FD-BA66-20B49113A4E2}
 	EndGlobalSection
 EndGlobal
