@@ -47,9 +47,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopDx3.UnitTests", "src\Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopDx3.Api", "src\ShopDx3.Api\ShopDx3.Api.csproj", "{CA74DC3B-D056-48C7-91C1-B1B31AD67DF9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PizzaConsole", "PizzaConsole", "{2EE3DB19-B46F-416A-AA6D-1D4CC02BB680}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Seeder", "Seeder", "{2EE3DB19-B46F-416A-AA6D-1D4CC02BB680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaConsole", "src\PizzaConsole\PizzaConsole.csproj", "{66C141DB-301C-4F86-840D-A8D1F051F206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SederConsole", "src\PizzaConsole\SederConsole.csproj", "{66C141DB-301C-4F86-840D-A8D1F051F206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
