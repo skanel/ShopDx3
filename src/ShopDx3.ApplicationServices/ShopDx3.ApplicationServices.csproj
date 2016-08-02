@@ -30,6 +30,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Events, Version=3.5.2.27370, Culture=neutral, PublicKeyToken=9f9ffdb810b9e463, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Autofac.Events.3.5.2.1\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\Autofac.Events.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,11 +52,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IInventoryService.cs" />
+    <Compile Include="InventoryService.cs" />
+    <Compile Include="IOrderService.cs" />
+    <Compile Include="OrderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShopDx3.DomainModels\ShopDx3.DomainModels.csproj">
+      <Project>{427e68c4-7b16-47e7-b99a-01e9d22d3056}</Project>
+      <Name>ShopDx3.DomainModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopDx3.Interfaces\ShopDx3.Interfaces.csproj">
+      <Project>{8f292a80-a123-4f36-a403-1412dffd3907}</Project>
+      <Name>ShopDx3.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopDx3.SharedKernel\ShopDx3.SharedKernel.csproj">
+      <Project>{cca26d2f-86af-4053-a767-082cb8d02074}</Project>
+      <Name>ShopDx3.SharedKernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopDx3.ViewModels\ShopDx3.ViewModels.csproj">
+      <Project>{2f7454ed-90a9-493d-aee3-249b23f2258d}</Project>
+      <Name>ShopDx3.ViewModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
