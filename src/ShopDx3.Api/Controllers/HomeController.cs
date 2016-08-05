@@ -1,12 +1,12 @@
 ﻿using System.Web.Mvc;
 
-namespace DDDPizza.Api.Controllers
+namespace ShopDx3.Api.Controllers
 {
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "DDDPizZa!";
+            ViewBag.Title = "Product!";
 
             return View();
         }

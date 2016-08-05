@@ -48,21 +48,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseTypes\InventoryBase.cs" />
-    <Compile Include="Bread.cs" />
-    <Compile Include="Cheese.cs" />
-    <Compile Include="Enums\ServiceType.cs" />
-    <Compile Include="Events\OrderNeedsDelivery.cs" />
-    <Compile Include="Handlers\NotifyOrderNeedsDelivery.cs" />
-    <Compile Include="Interfaces\IDomainEvent.cs" />
-    <Compile Include="Interfaces\IInventoryEntity.cs" />
-    <Compile Include="Interfaces\IMessageService.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="Pizza.cs" />
+    <Compile Include="BaseTypes\DocBase.cs" />
+    <Compile Include="BlogComment.cs" />
+    <Compile Include="BlogPost.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sauce.cs" />
-    <Compile Include="Size.cs" />
-    <Compile Include="Topping.cs" />
+    <Compile Include="Seo.cs" />
+    <Compile Include="Title.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -72,6 +66,11 @@
       <Project>{cca26d2f-86af-4053-a767-082cb8d02074}</Project>
       <Name>ShopDx3.SharedKernel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Events\" />
+    <Folder Include="Handlers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

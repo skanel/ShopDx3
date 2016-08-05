@@ -7,9 +7,6 @@ using Newtonsoft.Json.Serialization;
 
 namespace ShopDx3.Api
 {
-
-
-
     public static class WebApiConfig
     {
 
@@ -29,8 +26,7 @@ namespace ShopDx3.Api
             settings.Formatting = Formatting.Indented;
             settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
 
-            // Configure Web API with the dependency resolver.
-            GlobalConfiguration.Configuration.DependencyResolver = AutofacBootStrapper.AutofacWebApiDependencyResolver();
+           
 
             // Web API routes
             config.MapHttpAttributeRoutes();

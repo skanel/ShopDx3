@@ -2,7 +2,7 @@
 
 namespace ShopDx3.DomainModels.Interfaces
 {
-    public interface IInventoryEntity 
+    public interface IEntity 
     {
         Guid Id { get;  }
         string Name { get;  }

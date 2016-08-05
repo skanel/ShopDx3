@@ -41,12 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FullInventoryVm.cs" />
-    <Compile Include="InventoryTypeVm.cs" />
-    <Compile Include="InventoryVm.cs" />
-    <Compile Include="OrderVm.cs" />
-    <Compile Include="PizzaVm.cs" />
-    <Compile Include="PriceInventoryVm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -190,15 +190,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="Factories\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\AutofacBootStrapper.cs" />
-    <Compile Include="App_Start\AutoMapper.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="App_Start\MongoBootStrapper.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
@@ -231,10 +228,6 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\BaseApiController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\InventoryController.cs" />
-    <Compile Include="Controllers\OrderController.cs" />
-    <Compile Include="Factories\OrderVmToOrderDmConverter.cs" />
-    <Compile Include="Factories\PizzaVmToPizzaDmConverter.cs" />
     <Compile Include="Formatters\JsonContentNegotiator.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

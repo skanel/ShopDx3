@@ -57,10 +57,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factories\RepositoryFactory.cs" />
-    <Compile Include="InventoryRepository.cs" />
-    <Compile Include="OrderRepository.cs" />
-    <Compile Include="SeedRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,10 +71,17 @@
       <Project>{8f292a80-a123-4f36-a403-1412dffd3907}</Project>
       <Name>ShopDx3.Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ShopDx3.Mocks\ShopDx3.Mocks.csproj">
+      <Project>{C6A4D67F-902D-40F4-AB14-1C20F04B3C9D}</Project>
+      <Name>ShopDx3.Mocks</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ShopDx3.SharedKernel\ShopDx3.SharedKernel.csproj">
       <Project>{cca26d2f-86af-4053-a767-082cb8d02074}</Project>
       <Name>ShopDx3.SharedKernel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Factories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
