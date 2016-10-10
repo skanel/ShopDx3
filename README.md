@@ -1,3 +1,2 @@
 # ShopDx3
-
-Come back soon.
+Sample that you can learn something..
